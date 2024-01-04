@@ -1,4 +1,4 @@
-class SJF:
+class SJFPreemptive:
     def processData(self, no_of_processes):
         process_data = []
         for i in range(no_of_processes):
@@ -98,8 +98,3 @@ class SJF:
         print('Average Waiting Time:',average_waiting_time)
         print('Gantt chart:',executed_process)
 
-
-if __name__ == "__main__":
-    no_of_processes = int(input("Enter number of processes: "))
-    sjf = SJF()
-    sjf.processData(no_of_processes)

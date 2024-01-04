@@ -148,8 +148,3 @@ class RoundRobin:
         print('Average Waiting Time:',average_waiting_time)
         print('Gantt chart:',executed_process)
 
-
-if __name__ == "__main__":
-    no_of_processes = int(input("Enter number of processes: "))
-    rr = RoundRobin()
-    rr.processData(no_of_processes)
