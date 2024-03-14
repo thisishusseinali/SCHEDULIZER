@@ -4,7 +4,7 @@ setup(
     name='schedulizer',
     version='0.1.0',
     author='@thisishusseinali',
-    author_email='thisishusseinali@outlook.com',
+    author_email='hussein-ali@tuta.io',
     description='A description of your project',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
